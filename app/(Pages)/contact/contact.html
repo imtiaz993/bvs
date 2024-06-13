@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BVS | Contact</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#AA182C">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta name="description" content="We are a multidisciplinary tech-enabled project management service, that bridges the gaps between the silos of property management and NYC municipal agencies. ">
+    <meta name="keywords" content="BVS, Violations, Expediters, Design, Solutions, Resolution">
+    <link rel="author" href="Azark Inc" />
+    <link rel="canonical" href="https://bvs.nyc/" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+
+
+    <style>
+        #map {
+            height: 65vh;
+            margin-bottom: 3%;
+            width: 100vw
+        }
+
+        a:hover{
+            color: #444;
+        }
+
+        .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+            background-color: #c5b8a7;
+            border-radius: 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-custom navbar-mainbg" style="position: fixed; width: 100%; z-index: 100">
+    <a class="navbar-brand navbar-logo" href="/"><img loading="lazy" id="logoimg" src="img/BVS_Logo.png" alt="BVS"/></a>
+    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" style="padding-right: 0; margin-right: 2%; padding-left: 10px">
+        <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <div class="hori-selector">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/services">Services</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div style="width: 100%; height: 75vh;">
+    <img alt="topper" loading="lazy" src="img/pageTopper.png"
+         class="top-bg"/>
+    <h1 class="header-text">Contact Us</h1>
+</div>
+
+<div class="responsive-two-column-grid" style="margin-top: 5%">
+    <div class="contact-left">
+        <div class="contact-img">
+            <img loading="lazy" class="parallax"
+                 src="img/contact1.png"
+                 style="width: 100%" alt="image"/>
+        </div>
+    </div>
+    <div>
+        <div class="contact-right">
+            <h1>For more information, business opportunities or any questions; reach out below</h1>
+            <form action="https://formsubmit.co/admin@bvs.nyc" method="POST">
+                <input type="hidden" name="_next" value="https://bvs.nyc/">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="text" name="_honey" style="display:none">
+
+                
+                <input type="text" placeholder="Name" name="Name" style="width: 100%" required>
+                <div style="display: flex; justify-content: space-between">
+                    <input type="text" placeholder="Subject" name="_subject" style="width: 45%" required>
+                    <input type="email" placeholder="Email" name="Email" style="width: 45%" required>
+                </div>
+                <textarea placeholder="Message" name="Message" style="width: 100%" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+    <img loading="lazy" src="img/pagebreak.png" class="page-break" alt="image">
+</div>
+
+<div class="responsive-two-column-grid" style="margin-top: 2%">
+    <div>
+        <div class="contact-right" style="margin: auto">
+            <h1>We are always looking for talented individuals to join our team. Interested? Connect with us by filling out the form below.</h1>
+            <form action="https://formsubmit.co/talent@bvs.nyc" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_next" value="https://bvs.nyc/">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_subject" value="BVS - Job Application Submission">
+
+                <input type="text" placeholder="Name" name="Name" style="width: 100%" required>
+                <div style="display: flex; justify-content: space-between">
+                    <input id="file" name="Attachment" type="file" placeholder="Resume" style="width: 45%"
+                           accept="application/vnd.ms-word.document.macroEnabled.12, application/pdf, image/png, image/jpeg" required>
+                    <input type="email" name="Email" placeholder="Email" style="width: 45%" required>
+                </div>
+                <textarea placeholder="Message" name="Message" style="width: 100%"></textarea>
+                <button type="submit">Apply</button>
+            </form>
+        </div>
+    </div>
+    <div class="contact-left" style="width: 100%">
+        <div class="contact-img2">
+            <img loading="lazy" class="parallax"
+                 src="img/contact2.png"
+                 style="width: 90%" alt="image"/>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center;">
+    <img loading="lazy" src="img/pagebreak.png" class="page-break" alt="image">
+</div>
+
+<div class="locational" >
+    <div style="display: flex; flex-direction: row; width: 100%">
+        <a id="location-mail" style="display: flex; flex-direction: row; width: 100%; " href="mailto: admin@bvs.nyc">
+            <span class="fas fa-envelope text-white"
+              style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"></span>
+            <h3>admin@bvs.nyc</h3>
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: row; width: 100%">
+        <a id="location-map" style="display: flex; flex-direction: row; width: 100%; " href="https://maps.app.goo.gl/3S2kgXWk48vREADu9" target="_blank">
+            <span class="fas fa-location-arrow text-white"
+                  style="padding: 2%; background-color: #BA2025; border-radius: 500px; margin: auto 2%"></span>
+            <h3>130 West 37th Street New York, NY 10018</h3>
+        </a>
+    </div>
+    <div style="display: flex; flex-direction: row; width: 100%; ">
+        <a id="location-phone" style="display: flex; flex-direction: row; width: 100%; " href="tel:212-547-9000">
+            <span class="fas fa-phone text-white"
+                  style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"></span>
+            <h3>(212) 547-9000</h3>
+        </a>
+    </div>
+
+</div>
+
+
+<div id="map">
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+<script>
+    var map = L.map('map', {    scrollWheelZoom: false, zoomControl: false
+    }).setView([40.752250, -73.988300], 18);
+    L.tileLayer('http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">City of New York CC BY 4.0</>'
+    }).addTo(map);
+
+    L.tileLayer('https://mapwarper.net/mosaics/tile/1194/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">City of New York CC BY 4.0</>'
+    }).addTo(map);
+
+    L.tileLayer('https://maps.nyc.gov/xyz/1.0.0/carto/label-lt/{z}/{x}/{y}.png8', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">City of New York CC BY 4.0</>'
+    }).addTo(map);
+
+    var BVSicon = L.icon({
+        iconUrl: './img/filled_logo.png',
+
+        iconSize:     [38, 45], // size of the icon
+        //shadowSize:   [50, 64], // size of the shadow
+        iconAnchor:   [15, 0], // point of the icon which will correspond to marker's location
+        //shadowAnchor: [4, 62],  // the same for the shadow
+        popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+
+    var marker = L.marker([40.752250, -73.988300], {icon: BVSicon}).addTo(map);
+    marker.bindPopup("130 West 37 Street, New York, NY").openPopup();
+
+</script>
+
+
+<div style="position: relative; width: 85%; border-top: #BA2025 solid 2px; margin: auto">
+    <footer style="position: relative; border-bottom: #BA2025 solid 2px; margin-bottom: 3vh; display: flex">
+        <div class="footer-left">
+            <img loading="lazy" src="img/BVS_Logo.png" id="footer-img" alt="image" style="object-fit: cover"/>
+            <p style="opacity: .8; margin-bottom: 3vh; line-height: 2.5; text-align: left;">BVS is an all-inclusive filing representative
+                firm that specializes in New York City Department of Building Code, Zoning and Regulations. We provide
+                fast, cost effective strategic solutions to ensure property managers, owner's and representatives are
+                compliant</p>
+        </div>
+        <div class="footer-middle">
+            <h2 style="text-align: left">Contact Us</h2>
+            <a  style="display: flex; flex-direction: row; width: 100%; " href="mailto: admin@bvs.nyc">
+            <span class="fas fa-envelope text-white"
+                  style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"></span>
+                admin@bvs.nyc
+            </a>
+            <a  style="display: flex; flex-direction: row; width: 100%; " href="https://maps.app.goo.gl/3S2kgXWk48vREADu9" target="_blank">
+            <span class="fas fa-location-arrow text-white"
+                  style="padding: 2%; background-color: #BA2025; border-radius: 500px; margin: auto 2%"></span>
+                130 W 37th Street New York, NY 10018
+            </a>
+            <a  style="display: flex; flex-direction: row; width: 100%; " href="tel:212-547-9000">
+            <span class="fas fa-phone text-white"
+                  style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"></span>
+                212-547-9000
+            </a>
+        </div>
+        <div class="footer-right">
+            <h2 style="text-align: left">Pages</h2>
+            <a class="footer-tab" href="/">Home</a>
+            <a class="footer-tab" href="/about">About</a>
+            <a class="footer-tab" href="/services">Services</a>
+            <a class="footer-tab" href="/contact">Contact</a>
+            <a class="footer-tab" href="/blog">Blog</a>
+        </div>
+    </footer>
+    <a class="pptos" href="privacy-policy.html">Privacy Policy</a>
+</div>
+
+
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+<script src="js/simpleParallax.js"></script>
+<script src="js/script.js"></script>
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function () {
+    Calendly.initBadgeWidget({
+        url: 'https://calendly.com/general-services',
+        text: 'Free Consultation',
+        color: '#ad172c',
+        textColor: '#ffffff',
+        branding: false,
+        zIndex: 100
+    });
+}</script>
+</body>
+</html>
