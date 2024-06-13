@@ -36,22 +36,22 @@ const Home = () => {
           src="/img/filled_logo.png"
         />
         <h1
-          class="hover-text"
+          className="hover-text"
           style="position: absolute; top: 20%; left: 0; z-index: 10; font-size: 5vmax; border-bottom: #BA2025 5px solid; padding: 2% 2% 1.5% 0%; font-weight: bold; "
         >
           Your Violations
         </h1>
         <h1
-          class="hover-text white-inside"
+          className="hover-text white-inside"
           style="position: absolute; bottom: 20%; right: 0; z-index: 10; font-size: 5vmax; border-bottom: #fff 5px solid; padding: 2% 0 1.5% 2%; font-weight: bold; -webkit-text-stroke-color: #fff;"
         >
           Our Solutions
         </h1>
       </div>
 
-      <div class="responsive-two-column-grid">
-        <div class="outside-about">
-          <div class="about-left">
+      <div className="responsive-two-column-grid">
+        <div className="outside-about">
+          <div className="about-left">
             <h4>Who We Are</h4>
             <h1>About Us</h1>
             <br />
@@ -69,10 +69,10 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <div class="about-right">
+          <div className="about-right">
             <img
               loading="lazy"
-              class="parallax"
+              className="parallax"
               src="/img/homeAbout.png"
               style="width: 110%; margin-left: -5%; object-fit: cover; object-position: 0 0"
               alt="image"
@@ -85,20 +85,20 @@ const Home = () => {
         <img
           loading="lazy"
           src="/img/pagebreak.png"
-          class="page-break"
+          className="page-break"
           alt="image"
         />
       </div>
 
       <section id="process">
-        <h1 class="section-title">Our Process</h1>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="steps-timeline text-center">
-              <div class="steps-one">
-                <div class="setup">
-                  <div class="pane-warp">
-                    <div class="steps-pane">
+        <h1 className="section-title">Our Process</h1>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="steps-timeline text-center">
+              <div className="steps-one">
+                <div className="setup">
+                  <div className="pane-warp">
+                    <div className="steps-pane">
                       <h2>
                         Investigate & <br />
                         Due-Diligence
@@ -112,29 +112,29 @@ const Home = () => {
                       <h1>01</h1>
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue">
-                    <div class="inverted-steps-pane"></div>
+                  <div className="inverted-pane-warp back-blue">
+                    <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div class="step-wrap">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="pane-warp back-blue">
-                  <div class="steps-pane" style="">
+                <div className="pane-warp back-blue">
+                  <div className="steps-pane" style="">
                     <img loading="lazy" src="/img/step1.png" alt="image" />
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
 
-              <div class="steps-one mobile-only">
-                <div class="setup">
-                  <div class="pane-warp">
-                    <div class="steps-pane">
+              <div className="steps-one mobile-only">
+                <div className="setup">
+                  <div className="pane-warp">
+                    <div className="steps-pane">
                       <h2>Survey & Understanding </h2>
                       <p>
                         We assess the previous and current data of your building
@@ -145,51 +145,51 @@ const Home = () => {
                       <h1>02</h1>
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue">
-                    <div class="inverted-steps-pane"></div>
+                  <div className="inverted-pane-warp back-blue">
+                    <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div class="step-wrap">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="pane-warp back-blue">
-                  <div class="steps-pane" style="">
+                <div className="pane-warp back-blue">
+                  <div className="steps-pane" style="">
                     <img loading="lazy" src="/img/step2.jpg" alt="image" />
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
 
-              <div class="steps-two">
-                <div class="setup">
-                  <div class="pane-warp back-blue">
-                    <div class="steps-pane">
+              <div className="steps-two">
+                <div className="setup">
+                  <div className="pane-warp back-blue">
+                    <div className="steps-pane">
                       <img loading="lazy" src="/img/step2.jpg" alt="image" />
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue">
-                    <div class="inverted-steps-pane"></div>
+                  <div className="inverted-pane-warp back-blue">
+                    <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div class="step-wrap2">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap2">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="step-wrap">
-                  <div class="steps-stops">
+                <div className="step-wrap">
+                  <div className="steps-stops">
                     <div
-                      class="verticle-line back-orange"
+                      className="verticle-line back-orange"
                       style="width: 0"
                     ></div>
                   </div>
                 </div>
-                <div class="pane-warp back-orange">
-                  <div class="steps-pane">
+                <div className="pane-warp back-orange">
+                  <div className="steps-pane">
                     <h2>Survey & Understanding </h2>
                     <p>
                       We assess the previous and current data of your building
@@ -200,15 +200,15 @@ const Home = () => {
                     <h1>02</h1>
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
 
-              <div class="steps-three">
-                <div class="setup">
-                  <div class="pane-warp ">
-                    <div class="steps-pane">
+              <div className="steps-three">
+                <div className="setup">
+                  <div className="pane-warp ">
+                    <div className="steps-pane">
                       <h2>Propose & Clarify</h2>
                       <p>
                         Our trusted professionals will provide our clientele
@@ -220,27 +220,27 @@ const Home = () => {
                       <h1>03</h1>
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue"></div>
+                  <div className="inverted-pane-warp back-blue"></div>
                 </div>
-                <div class="step-wrap">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="pane-warp back-blue">
-                  <div class="steps-pane">
+                <div className="pane-warp back-blue">
+                  <div className="steps-pane">
                     <img loading="lazy" src="/img/step3.png" alt="image" />
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
 
-              <div class="steps-one mobile-only">
-                <div class="setup">
-                  <div class="pane-warp">
-                    <div class="steps-pane">
+              <div className="steps-one mobile-only">
+                <div className="setup">
+                  <div className="pane-warp">
+                    <div className="steps-pane">
                       <h2>Resolve & Deliver</h2>
                       <p>
                         Our expert team will submit all documentation to the DOB
@@ -254,51 +254,51 @@ const Home = () => {
                       <h1>04</h1>
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue">
-                    <div class="inverted-steps-pane"></div>
+                  <div className="inverted-pane-warp back-blue">
+                    <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div class="step-wrap" style="padding-top: 100%">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap" style="padding-top: 100%">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="pane-warp back-blue">
-                  <div class="steps-pane" style="margin-top: -50px">
+                <div className="pane-warp back-blue">
+                  <div className="steps-pane" style="margin-top: -50px">
                     <img loading="lazy" src="/img/step4.png" alt="image" />
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
 
-              <div class="steps-four">
-                <div class="setup">
-                  <div class="pane-warp back-blue">
-                    <div class="steps-pane">
+              <div className="steps-four">
+                <div className="setup">
+                  <div className="pane-warp back-blue">
+                    <div className="steps-pane">
                       <img loading="lazy" src="/img/step4.png" alt="image" />
                     </div>
                   </div>
-                  <div class="inverted-pane-warp back-blue">
-                    <div class="inverted-steps-pane"></div>
+                  <div className="inverted-pane-warp back-blue">
+                    <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div class="step-wrap2">
-                  <div class="steps-stops">
-                    <div class="verticle-line back-orange"></div>
+                <div className="step-wrap2">
+                  <div className="steps-stops">
+                    <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
-                <div class="step-wrap">
-                  <div class="steps-stops">
+                <div className="step-wrap">
+                  <div className="steps-stops">
                     <div
-                      class="verticle-line back-orange"
+                      className="verticle-line back-orange"
                       style="width: 0"
                     ></div>
                   </div>
                 </div>
-                <div class="pane-warp back-orange" style="height: 100%">
-                  <div class="steps-pane">
+                <div className="pane-warp back-orange" style="height: 100%">
+                  <div className="steps-pane">
                     <h2>Resolve & Deliver</h2>
                     <p>
                       Our expert team will submit all documentation to the DOB
@@ -312,8 +312,8 @@ const Home = () => {
                     <h1>04</h1>
                   </div>
                 </div>
-                <div class="inverted-pane-warp back-blue">
-                  <div class="inverted-steps-pane bottom"></div>
+                <div className="inverted-pane-warp back-blue">
+                  <div className="inverted-steps-pane bottom"></div>
                 </div>
               </div>
             </div>
@@ -322,8 +322,8 @@ const Home = () => {
       </section>
 
       <section>
-        <div class="marquee" style="margin-top: 4vh">
-          <div class="marquee__group">
+        <div className="marquee" style="margin-top: 4vh">
+          <div className="marquee__group">
             <h2>DOB</h2>
             <h2>FDNY</h2>
             <h2>LPC</h2>
@@ -348,33 +348,33 @@ const Home = () => {
           <img
             loading="lazy"
             src="/img/pagebreak.png"
-            class="page-break"
+            className="page-break"
             alt="image"
           />
         </div>
 
-        <div class="parallax-view">
-          <div class="responsive-three-column-grid">
-            <div class="stat">
-              <h1 class="hover-text">5,708</h1>
+        <div className="parallax-view">
+          <div className="responsive-three-column-grid">
+            <div className="stat">
+              <h1 className="hover-text">5,708</h1>
               <h2>Violations Resolved</h2>
             </div>
-            <div class="stat">
-              <h1 class="hover-text">689</h1>
+            <div className="stat">
+              <h1 className="hover-text">689</h1>
               <h2>Properties Monitored</h2>
             </div>
-            <div class="stat">
-              <h1 class="hover-text">23+</h1>
+            <div className="stat">
+              <h1 className="hover-text">23+</h1>
               <h2>Years In Business</h2>
             </div>
           </div>
 
-          <div class="responsive-two-column-grid">
-            <div class="stats-left">
+          <div className="responsive-two-column-grid">
+            <div className="stats-left">
               <h1>
                 Where the grey area becomes
                 <b
-                  class="hover-text white-inside"
+                  className="hover-text white-inside"
                   style="-webkit-text-stroke-color: white; -webkit-text-stroke-width: thin"
                 >
                   {" "}
@@ -382,7 +382,7 @@ const Home = () => {
                 </b>
               </h1>
             </div>
-            <div class="stats-right" style="padding-bottom: 5%">
+            <div className="stats-right" style="padding-bottom: 5%">
               <h5 style="color: white;     font-family: 'Tenorite', sans-serif;">
                 Our team of New York City professionals is dedicated to
                 leveraging the most advanced industry technology to seamlessly
@@ -401,17 +401,17 @@ const Home = () => {
         <img
           loading="lazy"
           src="/img/pagebreak.png"
-          class="page-break"
+          className="page-break"
           alt="image"
         />
       </div>
 
-      <div class="responsive-two-column-grid">
-        <div class="contact-left">
-          <div class="contact-img">
+      <div className="responsive-two-column-grid">
+        <div className="contact-left">
+          <div className="contact-img">
             <img
               loading="lazy"
-              class="parallax"
+              className="parallax"
               src="/img/contact1.png"
               style="width: 100%"
               alt="image"
@@ -419,7 +419,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <div class="contact-right">
+          <div className="contact-right">
             <h1>
               For more information, business opportunities or any questions;
               reach out below

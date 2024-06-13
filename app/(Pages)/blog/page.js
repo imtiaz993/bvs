@@ -14,14 +14,14 @@ const Blog = () => {
   return (
     <div>
       <div style="width: 100%; height: 75vh;">
-        <img src="/img/pageTopper.png" class="top-bg" alt="image" />
-        <h1 class="header-text">Blog Posts</h1>
+        <img src="/img/pageTopper.png" className="top-bg" alt="image" />
+        <h1 className="header-text">Blog Posts</h1>
       </div>
 
       <div id="blog-posts" style="margin-top: 5%;"></div>
 
       <div style="display: flex; justify-content: center;">
-        <img src="/img/pagebreak.png" class="page-break" alt="image" />
+        <img src="/img/pagebreak.png" className="page-break" alt="image" />
       </div>
 
       {/* <script>
@@ -54,16 +54,16 @@ const Blog = () => {
         year: "numeric",
       })
 
-      return ` <div class="responsive-two-column-grid">
-  <div class="left-container1" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
-    <h1 class="hover-text about-hover" style="text-align: center">${item.title}</h1>
+      return ` <div className="responsive-two-column-grid">
+  <div className="left-container1" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
+    <h1 className="hover-text about-hover" style="text-align: center">${item.title}</h1>
         <h3 style="text-align: center">${item.author}</h3>
         <h3 style="text-align: center">${formattedCreated}</h3>
 
     <h4 style="line-height: 1.75; text-align: center">${item.clincher}</h4></div>
   <div>
-    <div class="photo-container" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
-      <img class="parallax"
+    <div className="photo-container" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
+      <img className="parallax"
            src="${item.photo}"
            style="width: 100%; height: 50vh; object-fit: cover" alt="image"/>
     </div>

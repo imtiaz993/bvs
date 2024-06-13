@@ -18,16 +18,16 @@ const About = () => {
         <img
           loading="lazy"
           src="/img/pageTopper.png"
-          class="top-bg"
+          className="top-bg"
           alt="image"
         />
-        <h1 class="header-text">About Us</h1>
+        <h1 className="header-text">About Us</h1>
       </div>
 
-      <div class="responsive-two-column-grid" style="margin-top: 5%">
-        <div class="left-container1">
+      <div className="responsive-two-column-grid" style="margin-top: 5%">
+        <div className="left-container1">
           <h2 style="text-align: center">- Who We Are -</h2>
-          <h1 class="hover-text about-hover" style="text-align: center">
+          <h1 className="hover-text about-hover" style="text-align: center">
             Building Violation Solutions
           </h1>
           <h4 style="line-height: 1.75; text-align: center">
@@ -42,10 +42,10 @@ const About = () => {
           </h4>
         </div>
         <div>
-          <div class="photo-container">
+          <div className="photo-container">
             <img
               loading="lazy"
-              class="parallax"
+              className="parallax"
               src="/img/about1.png"
               style="width: 100%;"
               alt="image"
@@ -58,17 +58,17 @@ const About = () => {
         <img
           loading="lazy"
           src="/img/pagebreak.png"
-          class="page-break"
+          className="page-break"
           alt="image"
         />
       </div>
 
-      <div class="responsive-two-column-grid" style="margin-bottom: 3%">
+      <div className="responsive-two-column-grid" style="margin-bottom: 3%">
         <div>
-          <div class="photo-container2 right-side">
+          <div className="photo-container2 right-side">
             <img
               loading="lazy"
-              class="parallax"
+              className="parallax"
               src="/img/about2.png"
               style="width: 100%;"
               alt="image"
@@ -76,12 +76,12 @@ const About = () => {
           </div>
         </div>
 
-        <div class="right-container1">
+        <div className="right-container1">
           <h2 style="text-align: center">- What We Do -</h2>
-          <h1 class="hover-text about-hover" style="text-align: center">
+          <h1 className="hover-text about-hover" style="text-align: center">
             Building Violation Solutions
           </h1>
-          <h4 class="right-text" style="line-height: 1.75; text-align: center">
+          <h4 className="right-text" style="line-height: 1.75; text-align: center">
             While our seamless incorporation of the various aspects of property
             violations and navigation through them is what distinguishes our
             company as one of the leaders in violation services, our expertise
@@ -93,22 +93,22 @@ const About = () => {
         </div>
       </div>
 
-      <div class="parallax-view" style="margin-bottom: 5%">
-        <h1 class="our-team-heading">Our Team</h1>
-        <div class="responsive-two-column-grid">
-          <div class="our-team firstone">
+      <div className="parallax-view" style="margin-bottom: 5%">
+        <h1 className="our-team-heading">Our Team</h1>
+        <div className="responsive-two-column-grid">
+          <div className="our-team firstone">
             <img loading="lazy" alt="allen" src="/img/allen_azarkian.png" />
             <h1
-              class="hover-text white-inside"
+              className="hover-text white-inside"
               style="-webkit-text-stroke-width: thin"
             >
               Allen Azarkian
             </h1>
             <h2>CEO / Founder</h2>
           </div>
-          <div class="our-team">
+          <div className="our-team">
             <h1
-              class="hover-text white-inside"
+              className="hover-text white-inside"
               style="-webkit-text-stroke-width: thin"
             >
               Ken McVeigh

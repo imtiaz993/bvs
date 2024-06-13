@@ -21,17 +21,17 @@ const Contact = () => {
             alt="topper"
             loading="lazy"
             src="/img/pageTopper.png"
-            class="top-bg"
+            className="top-bg"
           />
-          <h1 class="header-text">Contact Us</h1>
+          <h1 className="header-text">Contact Us</h1>
         </div>
 
-        <div class="responsive-two-column-grid" style="margin-top: 5%">
-          <div class="contact-left">
-            <div class="contact-img">
+        <div className="responsive-two-column-grid" style="margin-top: 5%">
+          <div className="contact-left">
+            <div className="contact-img">
               <img
                 loading="lazy"
-                class="parallax"
+                className="parallax"
                 src="/img/contact1.png"
                 style="width: 100%"
                 alt="image"
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <div class="contact-right">
+            <div className="contact-right">
               <h1>
                 For more information, business opportunities or any questions;
                 reach out below
@@ -88,14 +88,14 @@ const Contact = () => {
           <img
             loading="lazy"
             src="/img/pagebreak.png"
-            class="page-break"
+            className="page-break"
             alt="image"
           />
         </div>
 
-        <div class="responsive-two-column-grid" style="margin-top: 2%">
+        <div className="responsive-two-column-grid" style="margin-top: 2%">
           <div>
-            <div class="contact-right" style="margin: auto">
+            <div className="contact-right" style="margin: auto">
               <h1>
                 We are always looking for talented individuals to join our team.
                 Interested? Connect with us by filling out the form below.
@@ -148,11 +148,11 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div class="contact-left" style="width: 100%">
-            <div class="contact-img2">
+          <div className="contact-left" style="width: 100%">
+            <div className="contact-img2">
               <img
                 loading="lazy"
-                class="parallax"
+                className="parallax"
                 src="/img/contact2.png"
                 style="width: 90%"
                 alt="image"
@@ -165,12 +165,12 @@ const Contact = () => {
           <img
             loading="lazy"
             src="/img/pagebreak.png"
-            class="page-break"
+            className="page-break"
             alt="image"
           />
         </div>
 
-        <div class="locational">
+        <div className="locational">
           <div style="display: flex; flex-direction: row; width: 100%">
             <a
               id="location-mail"
@@ -178,7 +178,7 @@ const Contact = () => {
               href="mailto: admin@bvs.nyc"
             >
               <span
-                class="fas fa-envelope text-white"
+                className="fas fa-envelope text-white"
                 style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
               ></span>
               <h3>admin@bvs.nyc</h3>
@@ -192,7 +192,7 @@ const Contact = () => {
               target="_blank"
             >
               <span
-                class="fas fa-location-arrow text-white"
+                className="fas fa-location-arrow text-white"
                 style="padding: 2%; background-color: #BA2025; border-radius: 500px; margin: auto 2%"
               ></span>
               <h3>130 West 37th Street New York, NY 10018</h3>
@@ -205,7 +205,7 @@ const Contact = () => {
               href="tel:212-547-9000"
             >
               <span
-                class="fas fa-phone text-white"
+                className="fas fa-phone text-white"
                 style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
               ></span>
               <h3>(212) 547-9000</h3>

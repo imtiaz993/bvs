@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div style="position: relative; width: 85%; border-top: #BA2025 solid 2px; margin: auto">
       <footer style="position: relative; border-bottom: #BA2025 solid 2px; margin-bottom: 3vh; display: flex">
-        <div class="footer-left">
+        <div className="footer-left">
           <img
             loading="lazy"
             src="/img/BVS_Logo.png"
@@ -17,7 +17,7 @@ const Footer = () => {
             ensure property managers, owner's and representatives are compliant
           </p>
         </div>
-        <div class="footer-middle">
+        <div className="footer-middle">
           <h2 style="text-align: left">Contact Us</h2>
           <a
             id="location-mail"
@@ -25,7 +25,7 @@ const Footer = () => {
             href="mailto: admin@bvs.nyc"
           >
             <span
-              class="fas fa-envelope text-white"
+              className="fas fa-envelope text-white"
               style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
             ></span>
             admin@bvs.nyc
@@ -37,7 +37,7 @@ const Footer = () => {
             target="_blank"
           >
             <span
-              class="fas fa-location-arrow text-white"
+              className="fas fa-location-arrow text-white"
               style="padding: 2%; background-color: #BA2025; border-radius: 500px; margin: auto 2%"
             ></span>
             130 W 37th Street New York, NY 10018
@@ -48,32 +48,32 @@ const Footer = () => {
             href="tel:212-547-9000"
           >
             <span
-              class="fas fa-phone text-white"
+              className="fas fa-phone text-white"
               style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
             ></span>
             212-547-9000
           </a>
         </div>
-        <div class="footer-right">
+        <div className="footer-right">
           <h2 style="text-align: left">Pages</h2>
-          <a class="footer-tab" href="/">
+          <a className="footer-tab" href="/">
             Home
           </a>
-          <a class="footer-tab" href="/about">
+          <a className="footer-tab" href="/about">
             About
           </a>
-          <a class="footer-tab" href="/services">
+          <a className="footer-tab" href="/services">
             Services
           </a>
-          <a class="footer-tab" href="/contact">
+          <a className="footer-tab" href="/contact">
             Contact
           </a>
-          <a class="footer-tab" href="/blog">
+          <a className="footer-tab" href="/blog">
             Blog
           </a>
         </div>
       </footer>
-      <a class="pptos" href="privacy-policy.html">
+      <a className="pptos" href="privacy-policy.html">
         Privacy Policy
       </a>
     </div>

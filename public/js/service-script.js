@@ -17,7 +17,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
-// Get all buttons with class="btn" inside the container
+// Get all buttons with className="btn" inside the container
 var btns = document.getElementsByClassName("item");
 console.log(btns);
 
