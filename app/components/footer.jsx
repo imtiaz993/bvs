@@ -14,7 +14,7 @@ const Footer = () => {
             BVS is an all-inclusive filing representative firm that specializes
             in New York City Department of Building Code, Zoning and
             Regulations. We provide fast, cost effective strategic solutions to
-            ensure property managers, owner's and representatives are compliant
+            ensure property managers, owner&apos;s and representatives are compliant
           </p>
         </div>
         <div className="footer-middle">
