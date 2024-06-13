@@ -1,0 +1,19 @@
+#the-text img {
+  width: 100%;
+  padding: 5%;
+}
+#map {
+  height: 65vh;
+  margin-bottom: 3%;
+  width: 100vw;
+}
+
+a:hover {
+  color: #444;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: #c5b8a7;
+  border-radius: 0;
+}

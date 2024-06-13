@@ -1,12 +1,8 @@
-import "../public/css/style.css";
-import "../public/css/about.css";
-import "../public/css/services.css";
-import "../public/css/slider.css";
-import "../public/css/style-timeline.css";
+import Script from "next/script";
+import Calendly from "./components/calendly";
 
 export const metadata = {
   title: "BVS",
-  description: "",
 };
 
 export default function RootLayout({ children }) {
@@ -50,9 +46,32 @@ export default function RootLayout({ children }) {
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
         />
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/oov2wcw.css"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/oov2wcw.css"
+        ></link>
       </head>
-      <body>{children}</body>
+      <body id="root">
+        {children}
+        <Calendly />
+        <Script src="https://code.jquery.com/jquery-3.4.1.min.js" />
+        <Script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" />
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" />
+        <Script src="/js/script.js" />
+        <Script src="/js/service-script.js" />
+        <Script src="/js/simpleParallax.js" />
+      </body>
     </html>
   );
 }
