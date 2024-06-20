@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url("../img/background.png");
+    background: url("/img/background.png");
     background-size: 35%;
     margin: 0;
     overflow-x: hidden;
@@ -143,7 +143,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
      */
-    background: url("../img/background.png");
+    background: url("/img/background.png");
     /*
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -166,7 +166,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
     position: absolute;
     width: 26px;
     height: 25px;
-    background: url("../img/background.png");
+    background: url("/img/background.png");
     bottom: 10px;
 }
 
