@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-custom navbar-mainbg"
-      style="position: fixed; width: 100%; z-index: 100"
+      style={{ position: "fixed", width: "100%", zIndex: "100" }}
     >
       <a className="navbar-brand navbar-logo" href="/">
         <img loading="lazy" id="logoimg" src="/img/BVS_Logo.png" alt="BVS" />
@@ -13,7 +13,7 @@ const Navbar = () => {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        style="padding-right: 0; margin-right: 2%; padding-left: 10px"
+        style={{ paddingRight: "0", marginRight: "2%", paddingLeft: "10px" }}
       >
         <i className="fas fa-bars text-white"></i>
       </button>

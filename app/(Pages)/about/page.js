@@ -14,7 +14,7 @@ export const metadata = {
 const About = () => {
   return (
     <div>
-      <div style="width: 100%; height: 75vh;">
+      <div style={{ width: "100%", height: "75vh" }}>
         <img
           loading="lazy"
           src="/img/pageTopper.png"
@@ -24,13 +24,16 @@ const About = () => {
         <h1 className="header-text">About Us</h1>
       </div>
 
-      <div className="responsive-two-column-grid" style="margin-top: 5%">
+      <div className="responsive-two-column-grid" style={{ marginTop: "5%" }}>
         <div className="left-container1">
-          <h2 style="text-align: center">- Who We Are -</h2>
-          <h1 className="hover-text about-hover" style="text-align: center">
+          <h2 style={{ textAlign: "center" }}>- Who We Are -</h2>
+          <h1
+            className="hover-text about-hover"
+            style={{ textAlign: "center" }}
+          >
             Building Violation Solutions
           </h1>
-          <h4 style="line-height: 1.75; text-align: center">
+          <h4 style={{ lineheight: "1.75", textAlign: "center" }}>
             Building Violation Solutions Inc., provides expedient resolutions
             and closures to violations issued by New York City Building
             authorities. BVS partners with its sister company of architects,
@@ -47,14 +50,14 @@ const About = () => {
               loading="lazy"
               className="parallax"
               src="/img/about1.png"
-              style="width: 100%;"
+              style={{ width: "100%" }}
               alt="image"
             />
           </div>
         </div>
       </div>
 
-      <div style="display: flex; justify-content: center;">
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           loading="lazy"
           src="/img/pagebreak.png"
@@ -63,25 +66,34 @@ const About = () => {
         />
       </div>
 
-      <div className="responsive-two-column-grid" style="margin-bottom: 3%">
+      <div
+        className="responsive-two-column-grid"
+        style={{ marginBottom: "3%" }}
+      >
         <div>
           <div className="photo-container2 right-side">
             <img
               loading="lazy"
               className="parallax"
               src="/img/about2.png"
-              style="width: 100%;"
+              style={{ width: "100%" }}
               alt="image"
             />
           </div>
         </div>
 
         <div className="right-container1">
-          <h2 style="text-align: center">- What We Do -</h2>
-          <h1 className="hover-text about-hover" style="text-align: center">
+          <h2 style={{ textAlign: "center" }}>- What We Do -</h2>
+          <h1
+            className="hover-text about-hover"
+            style={{ textAlign: "center" }}
+          >
             Building Violation Solutions
           </h1>
-          <h4 className="right-text" style="line-height: 1.75; text-align: center">
+          <h4
+            className="right-text"
+            style={{ lineHeight: "1.75", textAlign: "center" }}
+          >
             While our seamless incorporation of the various aspects of property
             violations and navigation through them is what distinguishes our
             company as one of the leaders in violation services, our expertise
@@ -93,14 +105,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="parallax-view" style="margin-bottom: 5%">
+      <div className="parallax-view" style={{ marginBottom: "5%" }}>
         <h1 className="our-team-heading">Our Team</h1>
         <div className="responsive-two-column-grid">
           <div className="our-team firstone">
             <img loading="lazy" alt="allen" src="/img/allen_azarkian.png" />
             <h1
               className="hover-text white-inside"
-              style="-webkit-text-stroke-width: thin"
+              style={{ WebkitTextStrokeWidth: "thin" }}
             >
               Allen Azarkian
             </h1>
@@ -109,11 +121,13 @@ const About = () => {
           <div className="our-team">
             <h1
               className="hover-text white-inside"
-              style="-webkit-text-stroke-width: thin"
+              style={{ WebkitTextStrokeWidth: "thin" }}
             >
               Ken McVeigh
             </h1>
-            <h2 style="border: none">Director of BVS / Code and Zoning</h2>
+            <h2 style={{ border: "none" }}>
+              Director of BVS / Code and Zoning
+            </h2>
             <img loading="lazy" alt="ken" src="/img/ken.png" />
           </div>
         </div>

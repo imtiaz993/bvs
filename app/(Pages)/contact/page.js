@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <div>
       <div>
-        <div style="width: 100%; height: 75vh;">
+        <div style={{ width: "100%", height: "75vh" }}>
           <img
             alt="topper"
             loading="lazy"
@@ -26,14 +26,14 @@ const Contact = () => {
           <h1 className="header-text">Contact Us</h1>
         </div>
 
-        <div className="responsive-two-column-grid" style="margin-top: 5%">
+        <div className="responsive-two-column-grid" style={{ margintop: "5%" }}>
           <div className="contact-left">
             <div className="contact-img">
               <img
                 loading="lazy"
                 className="parallax"
                 src="/img/contact1.png"
-                style="width: 100%"
+                style={{ width: "100%" }}
                 alt="image"
               />
             </div>
@@ -47,35 +47,37 @@ const Contact = () => {
               <form action="https://formsubmit.co/admin@bvs.nyc" method="POST">
                 <input type="hidden" name="_next" value="https://bvs.nyc/" />
                 <input type="hidden" name="_captcha" value="true" />
-                <input type="text" name="_honey" style="display:none" />
+                <input type="text" name="_honey" style={{ display: "none" }} />
 
                 <input
                   type="text"
                   placeholder="Name"
                   name="Name"
-                  style="width: 100%"
+                  style={{ width: "100%" }}
                   required
                 />
-                <div style="display: flex; justify-content: space-between">
+                <div
+                  style={{ display: "flex", justifyContent: "space-between" }}
+                >
                   <input
                     type="text"
                     placeholder="Subject"
                     name="_subject"
-                    style="width: 45%"
+                    style={{ width: "45%" }}
                     required
                   />
                   <input
                     type="email"
                     placeholder="Email"
                     name="Email"
-                    style="width: 45%"
+                    style={{ width: "45%" }}
                     required
                   />
                 </div>
                 <textarea
                   placeholder="Message"
                   name="Message"
-                  style="width: 100%"
+                  style={{ width: "100%" }}
                   required
                 ></textarea>
                 <button type="submit">Submit</button>
@@ -84,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div style="display: flex; justify-content: center;">
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <img
             loading="lazy"
             src="/img/pagebreak.png"
@@ -93,9 +95,9 @@ const Contact = () => {
           />
         </div>
 
-        <div className="responsive-two-column-grid" style="margin-top: 2%">
+        <div className="responsive-two-column-grid" style={{ marginTop: "2%" }}>
           <div>
-            <div className="contact-right" style="margin: auto">
+            <div className="contact-right" style={{ margin: "auto" }}>
               <h1>
                 We are always looking for talented individuals to join our team.
                 Interested? Connect with us by filling out the form below.
@@ -107,7 +109,7 @@ const Contact = () => {
               >
                 <input type="hidden" name="_next" value="https://bvs.nyc/" />
                 <input type="hidden" name="_captcha" value="true" />
-                <input type="text" name="_honey" style="display:none" />
+                <input type="text" name="_honey" style={{ display: "none" }} />
                 <input
                   type="hidden"
                   name="_subject"
@@ -118,16 +120,18 @@ const Contact = () => {
                   type="text"
                   placeholder="Name"
                   name="Name"
-                  style="width: 100%"
+                  style={{ width: "100%" }}
                   required
                 />
-                <div style="display: flex; justify-content: space-between">
+                <div
+                  style={{ display: "flex", justifyContent: "space-between" }}
+                >
                   <input
                     id="file"
                     name="Attachment"
                     type="file"
                     placeholder="Resume"
-                    style="width: 45%"
+                    style={{ width: "45%" }}
                     accept="application/vnd.ms-word.document.macroEnabled.12, application/pdf, image/png, image/jpeg"
                     required
                   />
@@ -135,33 +139,33 @@ const Contact = () => {
                     type="email"
                     name="Email"
                     placeholder="Email"
-                    style="width: 45%"
+                    style={{ width: "45%" }}
                     required
                   />
                 </div>
                 <textarea
                   placeholder="Message"
                   name="Message"
-                  style="width: 100%"
+                  style={{ width: "100%" }}
                 ></textarea>
                 <button type="submit">Apply</button>
               </form>
             </div>
           </div>
-          <div className="contact-left" style="width: 100%">
+          <div className="contact-left" style={{ width: "100%" }}>
             <div className="contact-img2">
               <img
                 loading="lazy"
                 className="parallax"
                 src="/img/contact2.png"
-                style="width: 90%"
+                style={{ width: "90%" }}
                 alt="image"
               />
             </div>
           </div>
         </div>
 
-        <div style="display: flex; justify-content: center;">
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <img
             loading="lazy"
             src="/img/pagebreak.png"
@@ -171,42 +175,57 @@ const Contact = () => {
         </div>
 
         <div className="locational">
-          <div style="display: flex; flex-direction: row; width: 100%">
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <a
               id="location-mail"
-              style="display: flex; flex-direction: row; width: 100%; "
+              style={{ display: "flex", flexDirection: "row", width: "100%" }}
               href="mailto: admin@bvs.nyc"
             >
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
+                style={{
+                  padding: "2%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "auto 2%",
+                }}
               ></span>
               <h3>admin@bvs.nyc</h3>
             </a>
           </div>
-          <div style="display: flex; flex-direction: row; width: 100%">
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <a
               id="location-map"
-              style="display: flex; flex-direction: row; width: 100%; "
+              style={{ display: "flex", flexDirection: "row", width: "100%" }}
               href="https://maps.app.goo.gl/3S2kgXWk48vREADu9"
               target="_blank"
             >
               <span
                 className="fas fa-location-arrow text-white"
-                style="padding: 2%; background-color: #BA2025; border-radius: 500px; margin: auto 2%"
+                style={{
+                  padding: "2%",
+                  backgroundColor: "#BA2025",
+                  borderRadius: "500px",
+                  margin: "auto 2%",
+                }}
               ></span>
               <h3>130 West 37th Street New York, NY 10018</h3>
             </a>
           </div>
-          <div style="display: flex; flex-direction: row; width: 100%; ">
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <a
               id="location-phone"
-              style="display: flex; flex-direction: row; width: 100%; "
+              style={{ display: "flex", flexDirection: "row", width: "100%" }}
               href="tel:212-547-9000"
             >
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2%; background-color: #ad172c; border-radius: 500px; margin: auto 2%"
+                style={{
+                  padding: "2%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "auto 2%",
+                }}
               ></span>
               <h3>(212) 547-9000</h3>
             </a>

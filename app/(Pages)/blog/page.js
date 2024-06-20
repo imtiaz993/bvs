@@ -13,14 +13,14 @@ export const metadata = {
 const Blog = () => {
   return (
     <div>
-      <div style="width: 100%; height: 75vh;">
+      <div style={{ width: "100%", height: "75vh" }}>
         <img src="/img/pageTopper.png" className="top-bg" alt="image" />
         <h1 className="header-text">Blog Posts</h1>
       </div>
 
-      <div id="blog-posts" style="margin-top: 5%;"></div>
+      <div id="blog-posts" style={{ marginTop: "5%" }}></div>
 
-      <div style="display: flex; justify-content: center;">
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img src="/img/pagebreak.png" className="page-break" alt="image" />
       </div>
 
@@ -55,17 +55,17 @@ const Blog = () => {
       })
 
       return ` <div className="responsive-two-column-grid">
-  <div className="left-container1" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
-    <h1 className="hover-text about-hover" style="text-align: center">${item.title}</h1>
-        <h3 style="text-align: center">${item.author}</h3>
-        <h3 style="text-align: center">${formattedCreated}</h3>
+  <div className="left-container1" style={{cursor: "pointer"}} onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
+    <h1 className="hover-text about-hover" style={{textAlign: "center"}}>${item.title}</h1>
+        <h3 style={{textAlign: "center"}}>${item.author}</h3>
+        <h3 style={{textAlign: "center"}}>${formattedCreated}</h3>
 
-    <h4 style="line-height: 1.75; text-align: center">${item.clincher}</h4></div>
+    <h4 style={{lineHeight: "1.75", textAlign: "center"}}>${item.clincher}</h4></div>
   <div>
-    <div className="photo-container" style="cursor: pointer" onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
+    <div className="photo-container" style={{cursor: "pointer"}} onclick="location.assign('blog-single.html?id=${rfc3986EncodeURIComponent(item.identifier)}');">
       <img className="parallax"
            src="${item.photo}"
-           style="width: 100%; height: 50vh; object-fit: cover" alt="image"/>
+           style={{width: "100%", height: "50vh", objectFit: "cover"}} alt="image"/>
     </div>
   </div>
 </div>

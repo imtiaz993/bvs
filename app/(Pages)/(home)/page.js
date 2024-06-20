@@ -13,17 +13,31 @@ export const metadata = {
 const Home = () => {
   return (
     <div>
-      <div style="width: 100vw; height: 100vh">
+      <div style={{ width: "100vw", height: "100vh" }}>
         <img
           loading="lazy"
           alt="topper"
           src="/img/topper.png"
-          style="width: 100%; height: 100%; object-fit: cover; position: relative"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            position: "relative",
+          }}
         />
         <img
           loading="lazy"
           alt="logo"
-          style="position: absolute; z-index: 90; top: 0; left: 7%; right: 0; bottom: 0; margin: auto; width: 25vmax"
+          style={{
+            position: "absolute",
+            zIndex: "90",
+            top: "0",
+            left: "7%",
+            right: "0",
+            bottom: "0",
+            margin: "auto",
+            width: "25vmax",
+          }}
           draggable="false"
           src="/img/open_logo.png"
         />
@@ -31,19 +45,47 @@ const Home = () => {
           loading="lazy"
           alt="filled-logo"
           id="filled-logo"
-          style="position: absolute; z-index: 90; top: 0; left: 7%; right: 0; bottom: 0; margin: auto; width: 25vmax"
+          style={{
+            position: "absolute",
+            zIndex: "90",
+            top: "0",
+            left: "7%",
+            right: "0",
+            bottom: "0",
+            margin: "auto",
+            width: "25vmax",
+          }}
           draggable="false"
           src="/img/filled_logo.png"
         />
         <h1
           className="hover-text"
-          style="position: absolute; top: 20%; left: 0; z-index: 10; font-size: 5vmax; border-bottom: #BA2025 5px solid; padding: 2% 2% 1.5% 0%; font-weight: bold; "
+          style={{
+            position: "absolute",
+            top: "20%",
+            left: 0,
+            zIndex: "10",
+            fontSize: "5vmax",
+            borderBottom: "#BA2025 5px solid",
+            padding: "2% 2% 1.5% 0%",
+            fontWeight: "bold",
+          }}
         >
           Your Violations
         </h1>
         <h1
           className="hover-text white-inside"
-          style="position: absolute; bottom: 20%; right: 0; z-index: 10; font-size: 5vmax; border-bottom: #fff 5px solid; padding: 2% 0 1.5% 2%; font-weight: bold; -webkit-text-stroke-color: #fff;"
+          style={{
+            position: "absolute",
+            bottom: "20%",
+            right: 0,
+            zIndex: "10",
+            fontSize: "5vmax",
+            borderBottom: "#fff 5px solid",
+            padding: "2% 0 1.5% 2%",
+            fontWeight: "bold",
+            WebkitTextStrokeColor: "#fff",
+          }}
         >
           Our Solutions
         </h1>
@@ -74,14 +116,19 @@ const Home = () => {
               loading="lazy"
               className="parallax"
               src="/img/homeAbout.png"
-              style="width: 110%; margin-left: -5%; object-fit: cover; object-position: 0 0"
+              style={{
+                width: "110%",
+                marginLeft: "-5%",
+                objectFit: "cover",
+                objectPosition: "0 0",
+              }}
               alt="image"
             />
           </div>
         </div>
       </div>
 
-      <div style="display: flex; justify-content: center;">
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           loading="lazy"
           src="/img/pagebreak.png"
@@ -122,7 +169,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="pane-warp back-blue">
-                  <div className="steps-pane" style="">
+                  <div className="steps-pane" >
                     <img loading="lazy" src="/img/step1.png" alt="image" />
                   </div>
                 </div>
@@ -155,7 +202,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="pane-warp back-blue">
-                  <div className="steps-pane" style="">
+                  <div className="steps-pane" >
                     <img loading="lazy" src="/img/step2.jpg" alt="image" />
                   </div>
                 </div>
@@ -184,7 +231,7 @@ const Home = () => {
                   <div className="steps-stops">
                     <div
                       className="verticle-line back-orange"
-                      style="width: 0"
+                      style={{ width: "0" }}
                     ></div>
                   </div>
                 </div>
@@ -258,13 +305,13 @@ const Home = () => {
                     <div className="inverted-steps-pane"></div>
                   </div>
                 </div>
-                <div className="step-wrap" style="padding-top: 100%">
+                <div className="step-wrap" style={{ paddingTop: "100%" }}>
                   <div className="steps-stops">
                     <div className="verticle-line back-orange"></div>
                   </div>
                 </div>
                 <div className="pane-warp back-blue">
-                  <div className="steps-pane" style="margin-top: -50px">
+                  <div className="steps-pane" style={{ marginTop: "-50px" }}>
                     <img loading="lazy" src="/img/step4.png" alt="image" />
                   </div>
                 </div>
@@ -293,11 +340,14 @@ const Home = () => {
                   <div className="steps-stops">
                     <div
                       className="verticle-line back-orange"
-                      style="width: 0"
+                      style={{ width: "0" }}
                     ></div>
                   </div>
                 </div>
-                <div className="pane-warp back-orange" style="height: 100%">
+                <div
+                  className="pane-warp back-orange"
+                  style={{ height: "100%" }}
+                >
                   <div className="steps-pane">
                     <h2>Resolve & Deliver</h2>
                     <p>
@@ -322,7 +372,7 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="marquee" style="margin-top: 4vh">
+        <div className="marquee" style={{ marginTop: "4vh" }}>
           <div className="marquee__group">
             <h2>DOB</h2>
             <h2>FDNY</h2>
@@ -344,7 +394,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div style="display: flex; justify-content: center;">
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <img
             loading="lazy"
             src="/img/pagebreak.png"
@@ -375,15 +425,20 @@ const Home = () => {
                 Where the grey area becomes
                 <b
                   className="hover-text white-inside"
-                  style="-webkit-text-stroke-color: white; -webkit-text-stroke-width: thin"
+                  style={{
+                    WebkitTextStrokeColor: "white",
+                    WebkitTextStrokeWidth: "thin",
+                  }}
                 >
                   {" "}
                   clear
                 </b>
               </h1>
             </div>
-            <div className="stats-right" style="padding-bottom: 5%">
-              <h5 style="color: white;     font-family: 'Tenorite', sans-serif;">
+            <div className="stats-right" style={{ paddingBottom: "5%" }}>
+              <h5
+                style={{ color: "white", fontFamily: "Tenorite, sans-serif" }}
+              >
                 Our team of New York City professionals is dedicated to
                 leveraging the most advanced industry technology to seamlessly
                 manage and track all permits for your project. We are committed
@@ -397,7 +452,7 @@ const Home = () => {
         </div>
       </section>
 
-      <div style="display: flex; justify-content: center;">
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           loading="lazy"
           src="/img/pagebreak.png"
@@ -413,7 +468,7 @@ const Home = () => {
               loading="lazy"
               className="parallax"
               src="/img/contact1.png"
-              style="width: 100%"
+              style={{ width: "100%" }}
               alt="image"
             />
           </div>
@@ -427,35 +482,35 @@ const Home = () => {
             <form action="https://formsubmit.co/admin@bvs.nyc" method="POST">
               <input type="hidden" name="_next" value="https://bvs.nyc/" />
               <input type="hidden" name="_captcha" value="true" />
-              <input type="text" name="_honey" style="display:none" />
+              <input type="text" name="_honey" style={{ display: "none" }} />
 
               <input
                 type="text"
                 placeholder="Name"
                 name="Name"
-                style="width: 100%"
+                style={{ width: "100%" }}
                 required
               />
-              <div style="display: flex; justify-content: space-between">
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <input
                   type="text"
                   placeholder="Subject"
                   name="_subject"
-                  style="width: 45%"
+                  style={{ width: "45%" }}
                   required
                 />
                 <input
                   type="email"
                   placeholder="Email"
                   name="Email"
-                  style="width: 45%"
+                  style={{ width: "45%" }}
                   required
                 />
               </div>
               <textarea
                 placeholder="Message"
                 name="Message"
-                style="width: 100%"
+                style={{ width: "100%" }}
                 required
               ></textarea>
 

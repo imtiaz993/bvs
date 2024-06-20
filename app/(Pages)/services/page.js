@@ -14,7 +14,7 @@ export const metadata = {
 const Services = () => {
   return (
     <div>
-      <div style="width: 100%; height: 75vh;">
+      <div style={{ width: "100%", height: "75vh" }}>
         <img
           loading="lazy"
           src="/img/pageTopper.png"
@@ -24,9 +24,9 @@ const Services = () => {
         <h1 className="header-text">Services</h1>
       </div>
 
-      <div className="responsive-two-column-grid" style="margin-top: 5%">
-        <div style="padding: 5% 0 5% 0;">
-          <div style=" width: 100%;">
+      <div className="responsive-two-column-grid" style={{ marginTop: "5%" }}>
+        <div style={{ padding: "5% 0 5% 0" }}>
+          <div style={{ width: "100%" }}>
             <ul className="agency-selector">
               <li>
                 <a className="item active-service" href="#title-text">
@@ -96,8 +96,8 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div style="padding: 5% 20% 5% 0;">
-          <div className="lcs-inside" style=" width: 100%; padding: 3%">
+        <div style={{ padding: "5% 20% 5% 0" }}>
+          <div className="lcs-inside" style={{ width: "100%", padding: "3%" }}>
             <h1 id="title-text" className="hover-text">
               Department of Buildings
             </h1>
@@ -114,7 +114,9 @@ const Services = () => {
                   Inspections
                 </li>
                 <li className="item-left">Signage Legalization</li>
-                <li className="item-left">Construction Permitting and Sign-Offs</li>
+                <li className="item-left">
+                  Construction Permitting and Sign-Offs
+                </li>
                 <li className="item-left">Equipment Use Permit</li>
                 <li className="item-left">
                   Boiler and Elevator Compliance and Registration
@@ -253,7 +255,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div style="display: flex; justify-content: center;">
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           loading="lazy"
           src="/img/pagebreak.png"
@@ -264,11 +266,14 @@ const Services = () => {
 
       <h1
         id="rec-ven"
-        style="text-align: center; font-weight: bold; margin-bottom: 2%"
+        style={{ textAlign: "center", fontweight: "bold", marginBottom: "2%" }}
       >
         Recommended Vendors
       </h1>
-      <h4 id="ven-text" style="text-align: center; width: 70%; margin: auto">
+      <h4
+        id="ven-text"
+        style={{ textAlign: "center", width: "70%", margin: "auto" }}
+      >
         BVS works hand in hand with our affiliated sister companies to ensure a
         smooth process from beginning to end.
       </h4>
@@ -283,17 +288,27 @@ const Services = () => {
         </div>
         <div className="ser-right1">
           <h1>Inspections and Owner&apos;s Rep</h1>
-          <div style="justify-content: center; align-items: center">
+          <div style={{ justifyContent: "center", alignItems: "center" }}>
             <a href="tel:212-547-9000">
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
             <a href="mailto: admin@azark.com">
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
           </div>
@@ -309,17 +324,27 @@ const Services = () => {
         </div>
         <div className="ser-left2">
           <h1>Architecture and Drafting</h1>
-          <div style="justify-content: center; align-items: center">
+          <div style={{ justifycontent: "center", alignItems: "center" }}>
             <a href="tel:212-547-9000">
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2.5%; background-color: #BA2025; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#BA2025",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
             <a href="mailto: admin@aapc.nyc">
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2.5%; background-color: #BA2025; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#BA2025",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
           </div>
@@ -335,17 +360,27 @@ const Services = () => {
         </div>
         <div className="ser-right1">
           <h1>Design and Construction</h1>
-          <div style="justify-content: center; align-items: center">
+          <div style={{ justifyContent: "center", alignItems: "center" }}>
             <a href="tel:212-292-8226">
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
             <a href="mailto: admin@arkco.nyc">
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
           </div>
@@ -361,17 +396,27 @@ const Services = () => {
         </div>
         <div className="ser-left2">
           <h1>Property Database and Alerts</h1>
-          <div style="justify-content: center; align-items: center">
+          <div style={{ justifyContent: "center", alignItems: "center" }}>
             <a href="tel:212-401-6011">
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
             <a href="mailto: admin@violerts.com">
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
           </div>
@@ -387,17 +432,27 @@ const Services = () => {
         </div>
         <div className="ser-right1">
           <h1>Digital and Printed Media</h1>
-          <div style="justify-content: center; align-items: center">
+          <div style={{ justifyContent: "center", alignItems: "center" }}>
             <a href="tel:212-294-5974">
               <span
                 className="fas fa-phone text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
             <a href="mailto: admin@vps.nyc">
               <span
                 className="fas fa-envelope text-white"
-                style="padding: 2.5%; background-color: #ad172c; border-radius: 500px; margin: 1% 5%"
+                style={{
+                  padding: "2.5%",
+                  backgroundColor: "#ad172c",
+                  borderRadius: "500px",
+                  margin: "1% 5%",
+                }}
               ></span>
             </a>
           </div>

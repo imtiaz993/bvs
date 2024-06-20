@@ -60,15 +60,15 @@ const BlogSingle = () => {
 
                 if (formattedCreated !== formattedUpdated) {
 
-                    return `    <div style="width: 100%; height: 75vh;">
+                    return `    <div style={{width: "100%", height: "75vh"}}>
                                     <img src="${item.photo}"
                                          className="top-bg" alt="image"/>
                                     <h1 className="header-text">${item.title}</h1>
                                 </div>
-                                <div style="padding: 5% 15% 0">
-                                    <h5 style="padding: 2% 0 0; text-align: center">${item.author} | Created: ${formattedCreated} | Updated: ${formattedUpdated} </h5>
+                                <div style={{padding: "5% 15% 0"}}>
+                                    <h5 style={{padding: "2% 0 0", textAlign: "center"}}>${item.author} | Created: ${formattedCreated} | Updated: ${formattedUpdated} </h5>
 
-                                    <div style="display: flex; justify-content: center;">
+                                    <div style={{display: "flex", justifyContent: "center"}}>
                                         <img src="/img/pagebreak.png" className="page-break" alt="image">
                                     </div>
 
@@ -76,15 +76,15 @@ const BlogSingle = () => {
 
                                 </div>`
                 }
-                return `    <div style="width: 100%; height: 75vh;">
+                return `    <div style={{width: "100%", height: "75vh"}}>
                                     <img src="${item.photo}"
                                          className="top-bg" alt="image"/>
                                     <h1 className="header-text">${item.title}</h1>
                                 </div>
-                                <div style="padding: 5% 15% 0">
-                                    <h5 style="padding: 2% 0 0; text-align: center">${item.author} | Created: ${formattedCreated}</h5>
+                                <div style={{padding: "5% 15% 0"}}>
+                                    <h5 style={{padding: "2% 0 0", textAlign: "center">${item.author} | Created: ${formattedCreated}</h5>
 
-                                    <div style="display: flex; justify-content: center;">
+                                    <div style={{display: "flex", justifyContent: "center"}}>
                                         <img src="/img/pagebreak.png" className="page-break" alt="image">
                                     </div>
 
