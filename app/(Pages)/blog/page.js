@@ -1,5 +1,7 @@
 import Navbar from "app/components/navbar";
 import Footer from "app/components/footer";
+import Topper from "./components/topper";
+import PageBreak from "app/components/page-break";
 import "../../../public/css/style.css";
 import "../../../public/css/slider.css";
 import "../../../public/css/about.css";
@@ -16,16 +18,10 @@ const Blog = () => {
     <>
       <Navbar />
       <div>
-        <div style={{ width: "100%", height: "75vh" }}>
-          <img src="/img/pageTopper.png" className="top-bg" alt="image" />
-          <h1 className="header-text">Blog Posts</h1>
-        </div>
-
+        <Topper />
         <div id="blog-posts" style={{ marginTop: "5%" }}></div>
 
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <img src="/img/pagebreak.png" className="page-break" alt="image" />
-        </div>
+        <PageBreak />
 
         {/* <script>
   const BLOG_URL = 'https://azark-blog-backend.onrender.com/api/posts';
