@@ -1,4 +1,5 @@
-import React from "react";
+import Navbar from "app/components/navbar";
+import Footer from "app/components/footer";
 import "../../../../public/css/style.css";
 import "../../../../public/css/slider.css";
 import "../../../../public/css/about.css";
@@ -12,9 +13,11 @@ export const metadata = {
 
 const BlogSingle = () => {
   return (
-    <div>
-      <div id="blog-posts"></div>
-      {/* <script>
+    <>
+      <Navbar />
+      <div>
+        <div id="blog-posts"></div>
+        {/* <script>
         function GetURLParameter(sParam) {
             var sPageURL = window.location.search.substring(1);
             var sURLVariables = sPageURL.split('&');
@@ -110,7 +113,9 @@ const BlogSingle = () => {
         getPosts()
 
     </script> */}
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 
