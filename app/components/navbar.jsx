@@ -1,12 +1,14 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-custom navbar-mainbg"
       style={{ position: "fixed", width: "100%", zIndex: "100" }}
     >
-      <a className="navbar-brand navbar-logo" href="/">
+      <Link className="navbar-brand navbar-logo" href="/">
         <img loading="lazy" id="logoimg" src="/img/BVS_Logo.png" alt="BVS" />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -24,24 +26,24 @@ const Navbar = () => {
             <div className="right"></div>
           </div>
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <Link className="nav-link" href="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/services">
+            <Link className="nav-link" href="/services">
               Services
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <Link className="nav-link" href="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

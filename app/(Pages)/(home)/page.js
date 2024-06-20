@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "app/components/navbar";
 import Footer from "app/components/footer";
 import "../../../public/css/style.css";
@@ -450,7 +451,7 @@ const Home = () => {
                   securing <b>aggressive permit approvals</b>, ensuring a{" "}
                   <b>smooth and timely construction process to completion.</b>{" "}
                 </h5>
-                <a href="/contact">- Get in Touch</a>
+                <Link href="/contact">- Get in Touch</Link>
               </div>
             </div>
           </div>

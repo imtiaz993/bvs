@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div
@@ -93,26 +95,26 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <h2 style={{ textAlign: "left" }}>Pages</h2>
-          <a className="footer-tab" href="/">
+          <Link className="footer-tab" href="/">
             Home
-          </a>
-          <a className="footer-tab" href="/about">
+          </Link>
+          <Link className="footer-tab" href="/about">
             About
-          </a>
-          <a className="footer-tab" href="/services">
+          </Link>
+          <Link className="footer-tab" href="/services">
             Services
-          </a>
-          <a className="footer-tab" href="/contact">
+          </Link>
+          <Link className="footer-tab" href="/contact">
             Contact
-          </a>
-          <a className="footer-tab" href="/blog">
+          </Link>
+          <Link className="footer-tab" href="/blog">
             Blog
-          </a>
+          </Link>
         </div>
       </footer>
-      <a className="pptos" href="privacy-policy.html">
+      <Link className="pptos" href="/privacy-policy">
         Privacy Policy
-      </a>
+      </Link>
     </div>
   );
 };
