@@ -1,0 +1,46 @@
+export const services = [
+  "DOB",
+  "FDNY",
+  "LPC",
+  "HPD",
+  "DOT",
+  "DEC",
+  "DCP",
+  "PDST",
+  "MTA",
+  "DCA",
+  "OATH",
+  "ECB",
+  "TOPO",
+];
+
+export const descriptions = {
+  DOB: "Department of Buildings",
+  FDNY: "New York City Fire Department",
+  LPC: "Landmarks Preservation Commission",
+  HPD: "Department of Housing Preservation",
+  DOT: "Department of Transportation",
+  DEC: "Department of Environmental Control",
+  DCP: "Department of City Planning",
+  PDST: "Parks Department and Street Trees",
+  MTA: "Metropolitan Transportation Authority",
+  DCA: "Department of Consumer Affairs",
+  OATH: "Office of Administrative Trials and Hearings",
+  ECB: "Environmental Control Board",
+  TOPO: "Topographical Bureau",
+};
+
+export const serviceDetails = {
+  dob1: "Certificate of Occupancy Procurement",
+  dob2: "Place of Assembly Certificate of Operation (PACO) and Permit",
+  dob3: "Alteration DOB NOW filings, DOB Now Build Filings, DOB Now Inspections",
+  dob4: "Signage Legalization",
+  dob5: "Construction Permitting and Sign-Offs",
+  dob6: "Equipment Use Permit",
+  dob7: "Boiler and Elevator Compliance and Registration",
+  dob8: "Electrical Inspections",
+  dob9: "After Hours Variance Permits, Assist Contractor with After Hours Variances",
+  dob10: "Reinstatement of Application/Supersede of Application",
+  dob11: "Reissuance of Building Department Folder",
+  dob12: "PAA/ Withdrawal, Reinstatement and Supersede",
+};

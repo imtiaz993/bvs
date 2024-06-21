@@ -160,14 +160,6 @@
     display: none;
 }
 
-#dob-list {
-    display: block;
-}
-
-#fdny, #lpc, #hpd, #dot, #dec, #dcp, #pdst, #mta, #dca, #oath, #ecb, #topo {
-    display: none;
-}
-
 .active-service-inside {
     color: #ad172c;
 }
