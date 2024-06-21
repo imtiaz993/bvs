@@ -1,3 +1,5 @@
+"use client";
+
 const RecommendedVendors = () => {
   return (
     <div>
@@ -21,7 +23,9 @@ const RecommendedVendors = () => {
       </h4>
       <div className="ser-container">
         <div
-          onclick="window.open('https://azark.com')"
+          onClick={() => {
+            window.open("https://azark.com");
+          }}
           id="azark-ser"
           className="ser-left1"
         >
@@ -57,7 +61,9 @@ const RecommendedVendors = () => {
       </div>
       <div className="ser-container">
         <div
-          onclick="window.open('https://aapc.nyc')"
+          onClick={() => {
+            window.open("https://aapc.nyc");
+          }}
           id="aapc-ser"
           className="ser-right2"
         >
@@ -93,7 +99,9 @@ const RecommendedVendors = () => {
       </div>
       <div className="ser-container">
         <div
-          onclick="window.open('https://arkco.nyc')"
+          onClick={() => {
+            window.open("https://arkco.nyc");
+          }}
           id="arkco-ser"
           className="ser-left1"
         >
@@ -129,7 +137,9 @@ const RecommendedVendors = () => {
       </div>
       <div className="ser-container">
         <div
-          onclick="window.open('https://violerts.com')"
+          onClick={() => {
+            window.open("https://violerts.com");
+          }}
           id="violerts-ser"
           className="ser-right2"
         >
@@ -165,7 +175,9 @@ const RecommendedVendors = () => {
       </div>
       <div className="ser-container">
         <div
-          onclick="window.open('https://vps.nyc')"
+          onClick={() => {
+            window.open("https://vps.nyc");
+          }}
           id="vps-ser"
           className="ser-left1"
         >

@@ -22,8 +22,8 @@ const Calendly = () => {
       rootElement={rootElement}
       url="https://calendly.com/general-services"
       text="Free Consultation"
-      color="#FFDC32"
-      textColor="#1b1b1b"
+      color="#ad172c"
+      textColor="#ffffff"
       branding={false}
       zIndex="100"
     />
