@@ -17,3 +17,7 @@ a:hover {
   background-color: #c5b8a7;
   border-radius: 0;
 }
+
+.privacy-policy p {
+  text-align: left !important;
+}

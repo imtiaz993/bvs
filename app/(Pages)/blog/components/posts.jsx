@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SimpleParallax from "simple-parallax-js";
 
@@ -57,7 +58,10 @@ const Posts = ({ filteredPosts }) => {
                   transition="cubic-bezier(0,0,0,1)"
                   customWrapper=".steps-pane"
                 >
-                  <img
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
                     src={post.photo}
                     style={{
                       width: "100%",
