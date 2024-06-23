@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
     <nav
       className="navbar navbar-expand-custom navbar-mainbg"
@@ -34,22 +38,34 @@ const Navbar = () => {
             <div className="left"></div>
             <div className="right"></div>
           </div>
-          <li className="nav-item active">
+          <li className={`nav-item ${pathname === "/" ? "active" : ""}`}>
             <Link className="nav-link" href="/">
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={`nav-item ${
+              pathname.includes("/about") ? "active" : ""
+            }`}
+          >
             <Link className="nav-link" href="/about">
               About
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={`nav-item ${
+              pathname.includes("/services") ? "active" : ""
+            }`}
+          >
             <Link className="nav-link" href="/services">
               Services
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={`nav-item ${
+              pathname.includes("/contact") ? "active" : ""
+            }`}
+          >
             <Link className="nav-link" href="/contact">
               Contact
             </Link>
