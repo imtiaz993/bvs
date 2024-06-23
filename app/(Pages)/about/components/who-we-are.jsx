@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import SimpleParallax from "simple-parallax-js";
 
 const WhoWeAre = () => {
   return (
@@ -21,16 +24,22 @@ const WhoWeAre = () => {
       </div>
       <div>
         <div className="photo-container">
-          <Image
-            width={0}
-            height={0}
-            sizes="100vw"
-            loading="lazy"
-            className="parallax"
-            src="/img/about1.png"
-            style={{ width: "100%", height: "100%" }}
-            alt="image"
-          />
+          <SimpleParallax
+            scale={1.4}
+            delay={0.6}
+            transition="cubic-bezier(0,0,0,1)"
+            customWrapper=".steps-pane"
+          >
+            <Image
+              width={0}
+              height={0}
+              sizes="100vw"
+              loading="lazy"
+              src="/img/about1.png"
+              style={{ width: "100%", height: "100%" }}
+              alt="image"
+            />
+          </SimpleParallax>
         </div>
       </div>
     </div>

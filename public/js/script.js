@@ -79,22 +79,5 @@ jQuery(document).ready(function ($) {
 //     })
 // });
 
-var images = document.getElementsByClassName('parallax');
-new simpleParallax(images, {
-    scale: 1.4,
-    delay: .6,
-    transition: 'cubic-bezier(0,0,0,1)',
-    customWrapper: '.steps-pane'
-});
-
-var uploadField = document.getElementById("file");
-
-uploadField.onchange = function() {
-    if(this.files[0].size > 2097152){
-        alert("File is too big!");
-        this.value = "";
-    };
-};
-
 
 

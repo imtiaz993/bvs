@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import SimpleParallax from "simple-parallax-js";
 
 const Posts = ({ filteredPosts }) => {
   const router = useRouter();
@@ -50,16 +51,22 @@ const Posts = ({ filteredPosts }) => {
                   )
                 }
               >
-                <img
-                  className="parallax"
-                  src={post.photo}
-                  style={{
-                    width: "100%",
-                    height: "50vh",
-                    objectFit: "cover",
-                  }}
-                  alt="Blog Post"
-                />
+                <SimpleParallax
+                  scale={1.4}
+                  delay={0.6}
+                  transition="cubic-bezier(0,0,0,1)"
+                  customWrapper=".steps-pane"
+                >
+                  <img
+                    src={post.photo}
+                    style={{
+                      width: "100%",
+                      height: "50vh",
+                      objectFit: "cover",
+                    }}
+                    alt="Blog Post"
+                  />
+                </SimpleParallax>
               </div>
             </div>
           </div>
