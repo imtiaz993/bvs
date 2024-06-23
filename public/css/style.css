@@ -567,7 +567,7 @@ button:hover {
     width: 100% !important;
 }
 
-.blog-detail p{
+.blog-detail h1,h2,p{
     text-align: left !important;
 }
 
