@@ -409,7 +409,7 @@
 .responsive-three-column-grid > * {
     padding: 8rem 0;
     text-align: center;
-    margin: 15% 5%;
+    margin: 15% 5% !important;
 }
 
 
@@ -424,7 +424,7 @@
     .responsive-three-column-grid > * {
         padding: 8rem 1rem;
         text-align: center;
-        margin: 10% 20%;
+        margin: 10% 20% !important;
 
     }
 

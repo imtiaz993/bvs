@@ -55,6 +55,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 }
 
 .navbar-logo img {
+    width: fit-content;
     height: 50px;
     /*
     -webkit-filter: drop-shadow(1px 1px 1px #fff);
@@ -289,7 +290,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 }
 
 .footer-middle a{
-    color: #0e0e0f;
+    color: #0e0e0f !important;
     opacity: .8;
     text-decoration: none;
     margin: 2% 0;
@@ -297,14 +298,15 @@ footer, footer div, footer div h2, footer div a, footer div p{
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+    justify-content: start;
 }
 
 .footer-middle a:hover{
-    color: #ad172c;
+    color: #ad172c !important;
 }
 
 .footer-right a{
-    color: #0e0e0f;
+    color: #0e0e0f !important;
     opacity: .8;
     text-decoration: none;
     margin: 3% 0;
@@ -316,7 +318,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 }
 
 .footer-right a:hover{
-    color: #ad172c;
+    color: #ad172c !important;
 }
 
 
@@ -328,7 +330,8 @@ footer, footer div, footer div h2, footer div a, footer div p{
 
 #footer-img {
     margin-top: -1.25rem;
-    width: 5vmax
+    width: 5vmax;
+    height: fit-content;
 }
 
 @media (max-width: 900px) {
@@ -377,6 +380,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 
     #footer-img {
         width: 15vmax;
+        height: fit-content;
         margin: 3vh auto;
     }
 }
@@ -407,17 +411,17 @@ form {
 }
 
 input, textarea {
-    margin: 3% 0;
+    margin: 3% 0 !important;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #777;
     color: #777;
-    font-size: x-large;
+    font-size: x-large !important;
 }
 
 button {
     border: 2px solid #777;
-    font-size: x-large;
+    font-size: x-large !important;
     padding: .5rem 1rem;
     background-color: transparent;
     color: #555;
@@ -479,6 +483,7 @@ button:hover {
 
 .page-break {
     width: 10vmax;
+    height: fit-content;
     position: relative;
     margin: 3rem 0;
     object-fit: cover;

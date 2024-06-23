@@ -1,7 +1,12 @@
+import Image from "next/image";
+
 const PageBreak = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <img
+      <Image
+        width={0}
+        height={0}
+        sizes="100vw"
         loading="lazy"
         src="/img/pagebreak.png"
         className="page-break"

@@ -1,13 +1,18 @@
+import Image from "next/image";
+
 const CTA = () => {
   return (
     <div className="responsive-two-column-grid">
       <div className="contact-left">
         <div className="contact-img">
-          <img
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
             loading="lazy"
             className="parallax"
             src="/img/contact1.png"
-            style={{ width: "100%" }}
+            style={{ width: "100%", height:"100%" }}
             alt="image"
           />
         </div>

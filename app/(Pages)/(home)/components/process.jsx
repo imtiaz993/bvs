@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Process = () => {
   return (
     <section id="process">
@@ -33,7 +34,14 @@ const Process = () => {
               </div>
               <div className="pane-warp back-blue">
                 <div className="steps-pane">
-                  <img loading="lazy" src="/img/step1.png" alt="image" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    loading="lazy"
+                    src="/img/step1.png"
+                    alt="image"
+                  />
                 </div>
               </div>
               <div className="inverted-pane-warp back-blue">
@@ -66,7 +74,14 @@ const Process = () => {
               </div>
               <div className="pane-warp back-blue">
                 <div className="steps-pane">
-                  <img loading="lazy" src="/img/step2.jpg" alt="image" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    loading="lazy"
+                    src="/img/step2.jpg"
+                    alt="image"
+                  />
                 </div>
               </div>
               <div className="inverted-pane-warp back-blue">
@@ -78,7 +93,14 @@ const Process = () => {
               <div className="setup">
                 <div className="pane-warp back-blue">
                   <div className="steps-pane">
-                    <img loading="lazy" src="/img/step2.jpg" alt="image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      loading="lazy"
+                      src="/img/step2.jpg"
+                      alt="image"
+                    />
                   </div>
                 </div>
                 <div className="inverted-pane-warp back-blue">
@@ -139,7 +161,14 @@ const Process = () => {
               </div>
               <div className="pane-warp back-blue">
                 <div className="steps-pane">
-                  <img loading="lazy" src="/img/step3.png" alt="image" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    loading="lazy"
+                    src="/img/step3.png"
+                    alt="image"
+                  />
                 </div>
               </div>
               <div className="inverted-pane-warp back-blue">
@@ -175,7 +204,14 @@ const Process = () => {
               </div>
               <div className="pane-warp back-blue">
                 <div className="steps-pane" style={{ marginTop: "-50px" }}>
-                  <img loading="lazy" src="/img/step4.png" alt="image" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    loading="lazy"
+                    src="/img/step4.png"
+                    alt="image"
+                  />
                 </div>
               </div>
               <div className="inverted-pane-warp back-blue">
@@ -187,7 +223,14 @@ const Process = () => {
               <div className="setup">
                 <div className="pane-warp back-blue">
                   <div className="steps-pane">
-                    <img loading="lazy" src="/img/step4.png" alt="image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      loading="lazy"
+                      src="/img/step4.png"
+                      alt="image"
+                    />
                   </div>
                 </div>
                 <div className="inverted-pane-warp back-blue">

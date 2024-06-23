@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const JoinTeam = () => {
   return (
     <div className="responsive-two-column-grid" style={{ marginTop: "2%" }}>
@@ -57,11 +59,14 @@ const JoinTeam = () => {
       </div>
       <div className="contact-left" style={{ width: "100%" }}>
         <div className="contact-img2">
-          <img
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
             loading="lazy"
             className="parallax"
             src="/img/contact2.png"
-            style={{ width: "90%" }}
+            style={{ width: "90%",height:"fit-content" }}
             alt="image"
           />
         </div>

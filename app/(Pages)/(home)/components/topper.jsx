@@ -1,7 +1,12 @@
+import Image from "next/image";
+
 const Topper = () => {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
-      <img
+      <Image
+        width={0}
+        height={0}
+        sizes="100vw"
         loading="lazy"
         alt="topper"
         src="/img/topper.png"
@@ -12,7 +17,11 @@ const Topper = () => {
           position: "relative",
         }}
       />
-      <img
+
+      <Image
+        width={0}
+        height={0}
+        sizes="100vw"
         loading="lazy"
         alt="logo"
         style={{
@@ -24,11 +33,15 @@ const Topper = () => {
           bottom: "0",
           margin: "auto",
           width: "25vmax",
+          height: "fit-content"
         }}
         draggable="false"
         src="/img/open_logo.png"
       />
-      <img
+      <Image
+        width={0}
+        height={0}
+        sizes="100vw"
         loading="lazy"
         alt="filled-logo"
         id="filled-logo"
@@ -41,6 +54,7 @@ const Topper = () => {
           bottom: "0",
           margin: "auto",
           width: "25vmax",
+          height: "fit-content",
         }}
         draggable="false"
         src="/img/filled_logo.png"

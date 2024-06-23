@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -19,7 +20,10 @@ const Footer = () => {
         }}
       >
         <div className="footer-left">
-          <img
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
             loading="lazy"
             src="/img/BVS_Logo.png"
             id="footer-img"

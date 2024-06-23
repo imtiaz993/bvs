@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -7,7 +8,15 @@ const Navbar = () => {
       style={{ position: "fixed", width: "100%", zIndex: "100" }}
     >
       <Link className="navbar-brand navbar-logo" href="/">
-        <img loading="lazy" id="logoimg" src="/img/BVS_Logo.png" alt="BVS" />
+        <Image
+          width={0}
+          height={0}
+          sizes="100vw"
+          loading="lazy"
+          id="logoimg"
+          src="/img/BVS_Logo.png"
+          alt="BVS"
+        />
       </Link>
       <button
         className="navbar-toggler"

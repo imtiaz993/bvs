@@ -117,7 +117,7 @@
 }
 
 .active-service {
-    color: white;
+    color: white !important;
     background-color: #acacad;
     z-index: 99;
     border: #acacad solid 2px;
@@ -399,7 +399,7 @@
 }
 
 a {
-    color: #0e0e0f;
+    color: #0e0e0f !important;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
@@ -408,5 +408,5 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: white !important;
 }

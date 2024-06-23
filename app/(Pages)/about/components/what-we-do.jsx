@@ -1,13 +1,18 @@
+import Image from "next/image";
+
 const WhatWeDo = () => {
   return (
     <div className="responsive-two-column-grid" style={{ marginBottom: "3%" }}>
-      <div>
+      <div style={{ zIndex: "10" }}>
         <div className="photo-container2 right-side">
-          <img
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
             loading="lazy"
             className="parallax"
             src="/img/about2.png"
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%" }}
             alt="image"
           />
         </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const WhoWeAre = () => {
   return (
     <div className="responsive-two-column-grid" style={{ marginTop: "5%" }}>
@@ -6,7 +8,7 @@ const WhoWeAre = () => {
         <h1 className="hover-text about-hover" style={{ textAlign: "center" }}>
           Building Violation Solutions
         </h1>
-        <h4 style={{ lineheight: "1.75", textAlign: "center" }}>
+        <h4 style={{ lineHeight: "1.75", textAlign: "center" }}>
           Building Violation Solutions Inc., provides expedient resolutions and
           closures to violations issued by New York City Building authorities.
           BVS partners with its sister company of architects, engineers and
@@ -19,11 +21,14 @@ const WhoWeAre = () => {
       </div>
       <div>
         <div className="photo-container">
-          <img
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
             loading="lazy"
             className="parallax"
             src="/img/about1.png"
-            style={{ width: "100%" }}
+            style={{ width: "100%", height: "100%" }}
             alt="image"
           />
         </div>

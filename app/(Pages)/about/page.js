@@ -1,6 +1,6 @@
 import Navbar from "app/components/navbar";
 import Footer from "app/components/footer";
-import Topper from "../(home)/components/topper";
+import Topper from "./components/topper";
 import WhoWeAre from "./components/who-we-are";
 import PageBreak from "app/components/page-break";
 import WhatWeDo from "./components/what-we-do";

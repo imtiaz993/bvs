@@ -22,7 +22,9 @@ const Contact = () => {
     <>
       <Navbar />
       <Topper />
-      <CTA />
+      <div style={{marginTop: "5%"}}>
+        <CTA />
+      </div>
       <PageBreak />
       <JoinTeam />
       <PageBreak />
