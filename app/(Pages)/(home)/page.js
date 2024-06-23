@@ -12,7 +12,7 @@ import "../../../public/css/style-timeline.css";
 import "../../../public/css/slider.css";
 
 export const metadata = {
-  title: "AAPC | Home",
+  title: "BVS | Home",
   description:
     "We are a multidisciplinary tech-enabled project management service, that bridges the gaps between the silos of property management and NYC municipal agencies. ",
   keywords: "BVS, Violations, Expediters, Design, Solutions, Resolution",
