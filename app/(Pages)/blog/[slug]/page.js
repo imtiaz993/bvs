@@ -49,10 +49,12 @@ const BlogSingle = async ({ params }) => {
           <div style={{ padding: "5% 15% 0" }}>
             <PublishInfo post={post} />
             <PageBreak />
-            <div
-              id="the-text"
-              dangerouslySetInnerHTML={{ __html: post.desc }}
-            ></div>
+            <div className="blog-detail">
+              <div
+                id="the-text"
+                dangerouslySetInnerHTML={{ __html: post.desc }}
+              ></div>
+            </div>
           </div>
         </div>
       </div>
