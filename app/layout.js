@@ -59,6 +59,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://use.typekit.net/oov2wcw.css"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@latest/dist/leaflet.css"
+        />
       </head>
       <body id="root">
         {children}
