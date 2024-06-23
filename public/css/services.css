@@ -342,6 +342,10 @@
     justify-content: center;
 }
 
+.footer-middle a{
+    justify-content: flex-start !important;
+}
+
 @media screen and (max-width: 600px) {
 
     #location-map h3, #location-phone h3, #location-mail h3{
@@ -381,6 +385,11 @@
         font-size: small;
         scale: .75;
         margin: -5% auto;
+    }
+    .footer-middle a{
+        font-size: inherit !important;
+        scale: 1 !important;
+        margin: 2% 0 !important; 
     }
 
     .locational{
