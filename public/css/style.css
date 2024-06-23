@@ -566,3 +566,11 @@ button:hover {
 .blog-detail img{
     width: 100% !important;
 }
+
+.blog-detail p{
+    text-align: left !important;
+}
+
+.privacy-policy p {
+    text-align: left !important;
+  }
