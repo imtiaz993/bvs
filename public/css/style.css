@@ -303,6 +303,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 
 .footer-middle a:hover{
     color: #ad172c !important;
+    text-decoration: none !important;
 }
 
 .footer-right a{
@@ -319,6 +320,7 @@ footer, footer div, footer div h2, footer div a, footer div p{
 
 .footer-right a:hover{
     color: #ad172c !important;
+    text-decoration: none !important;
 }
 
 
@@ -490,7 +492,7 @@ button:hover {
 }
 
 .pptos{
-    text-decoration: none;
+    text-decoration: none !important;
     color: #acacad;
     margin-bottom: 1vh;
 }

@@ -8,10 +8,6 @@
   width: 100vw;
 }
 
-a:hover {
-  color: #444;
-}
-
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
   background-color: #c5b8a7;
@@ -20,4 +16,9 @@ a:hover {
 
 .privacy-policy p {
   text-align: left !important;
+}
+
+a:hover {
+  color: #444;
+  text-decoration: none !important;
 }
