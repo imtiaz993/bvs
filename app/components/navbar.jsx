@@ -72,13 +72,6 @@ const Navbar = () => {
       .querySelector(".navbar-toggler")
       .addEventListener("click", onNavbarToggle);
 
-    // Cleanup
-    return () => {
-      window.removeEventListener("resize", onResize);
-      document
-        .querySelector(".navbar-toggler")
-        .removeEventListener("click", onNavbarToggle);
-    };
   }, []);
 
   return (
