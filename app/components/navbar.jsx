@@ -1,11 +1,87 @@
 "use client";
 
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import $ from "jquery";
 
 const Navbar = () => {
   const pathname = usePathname();
+
+  useEffect(() => {
+    function test() {
+      const tabsNewAnim = document.querySelector("#navbarSupportedContent");
+      const activeItemNewAnim = tabsNewAnim.querySelector(".active");
+
+      if (!activeItemNewAnim) return;
+
+      const activeWidthNewAnimHeight = activeItemNewAnim.offsetHeight;
+      const activeWidthNewAnimWidth = activeItemNewAnim.offsetWidth;
+      const itemPosNewAnimTop = activeItemNewAnim.offsetTop;
+      const itemPosNewAnimLeft = activeItemNewAnim.offsetLeft;
+
+      document.querySelector(".hori-selector").style.cssText = `
+        top: ${itemPosNewAnimTop}px;
+        left: ${itemPosNewAnimLeft}px;
+        height: ${activeWidthNewAnimHeight}px;
+        width: ${activeWidthNewAnimWidth}px;
+      `;
+
+      tabsNewAnim.addEventListener("click", function (e) {
+        if (e.target.tagName === "LI") {
+          tabsNewAnim
+            .querySelectorAll("li")
+            .forEach((li) => li.classList.remove("active"));
+          e.target.classList.add("active");
+
+          const activeWidthNewAnimHeight = e.target.offsetHeight;
+          const activeWidthNewAnimWidth = e.target.offsetWidth;
+          const itemPosNewAnimTop = e.target.offsetTop;
+          const itemPosNewAnimLeft = e.target.offsetLeft;
+
+          document.querySelector(".hori-selector").style.cssText = `
+            top: ${itemPosNewAnimTop}px;
+            left: ${itemPosNewAnimLeft}px;
+            height: ${activeWidthNewAnimHeight}px;
+            width: ${activeWidthNewAnimWidth}px;
+          `;
+        }
+      });
+    }
+
+    function onResize() {
+      setTimeout(test, 500);
+    }
+
+    function onNavbarToggle() {
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      if (navbarCollapse.style.display === "block") {
+        navbarCollapse.style.display = "none";
+      } else {
+        navbarCollapse.style.display = "block";
+      }
+      setTimeout(test, 300);
+    }
+
+    // Initial call
+    setTimeout(test);
+
+    // Attach event listeners
+    window.addEventListener("resize", onResize);
+    document
+      .querySelector(".navbar-toggler")
+      .addEventListener("click", onNavbarToggle);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("resize", onResize);
+      document
+        .querySelector(".navbar-toggler")
+        .removeEventListener("click", onNavbarToggle);
+    };
+  }, []);
+
   return (
     <nav
       className="navbar navbar-expand-custom navbar-mainbg"

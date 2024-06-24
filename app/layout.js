@@ -72,9 +72,6 @@ export default function RootLayout({ children }) {
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" />
-        <Script src="/js/script.js" />
-        <Script src="/js/service-script.js" />
-        <Script src="/js/simpleParallax.js" />
       </body>
     </html>
   );
