@@ -88,6 +88,13 @@
     transition: all .2s ease-in;
 }
 
+.item{
+    font-size: xx-large !important;
+    font-weight: bold;
+    color: #0e0e0f;
+    border: none;
+}
+
 .agency-selector li:hover {
     background-color: #ad172c;
     color: white;
@@ -98,7 +105,15 @@
 .agency-selector li:nth-child(even){
     margin: -2% 0 -2% 30%;
     border: #0e0e0f 2px solid;
+    /* text-align: right; */
+}
+
+.agency-selector li:nth-child(even) button{
     text-align: right;
+}
+
+.agency-selector li:nth-child(odd) button{
+    text-align: left;
 }
 
 .item{
@@ -303,7 +318,7 @@
     }
 
     .item{
-        font-size: 2vmax;
+        font-size: 2vmax !important;
     }
 
     #title-text{

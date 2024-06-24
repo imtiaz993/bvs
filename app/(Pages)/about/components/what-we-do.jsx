@@ -28,7 +28,7 @@ const WhatWeDo = () => {
       </div>
 
       <div className="right-container1">
-        <h2 style={{ textAlign: "center" }}>- What We Do -</h2>
+        <h2 style={{ textAlign: "center !important" }}>- What We Do -</h2>
         <h1 className="hover-text about-hover" style={{ textAlign: "center" }}>
           Building Violation Solutions
         </h1>

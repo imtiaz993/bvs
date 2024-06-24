@@ -89,7 +89,7 @@
 }
 
 .our-team h1{
-    color: transparent;
+    color: transparent !important;
     -webkit-text-stroke-color: white;
 }
 
@@ -103,6 +103,7 @@
 
 .our-team h2{
     padding-bottom: 5%;
+    text-align: center !important;
 }
 
 .firstone{
@@ -197,7 +198,7 @@
     }
 
     .about-hover{
-        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-width: 1px !important;
         -webkit-text-stroke-color: #ad172c;
         letter-spacing: .1rem;
     }
