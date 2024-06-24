@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import Navbar from "app/components/navbar";
 import Footer from "app/components/footer";
 import Topper from "./components/topper";
@@ -5,11 +6,15 @@ import CTA from "app/components/cta";
 import PageBreak from "app/components/page-break";
 import JoinTeam from "./components/join-team";
 import Locations from "./components/locations";
-import MapComponent from "./components/map";
 import "../../../public/css/style.css";
 import "../../../public/css/slider.css";
 import "../../../public/css/about.css";
 import "../../../public/css/services.css";
+
+
+const MapComponent = dynamic(() => import('./components/map'), {
+  ssr: false
+});
 
 export const metadata = {
   title: "BVS | Contact",

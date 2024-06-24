@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import $ from "jquery";
 
 const Navbar = () => {
   const pathname = usePathname();
