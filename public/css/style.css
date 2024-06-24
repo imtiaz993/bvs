@@ -507,6 +507,10 @@ button:hover {
         padding-top: 5%;
     }
 
+    input, textarea{
+        font-size: 2.5vmax !important;
+    }
+
     form {
         margin: 5% 0;
     }
@@ -524,7 +528,7 @@ button:hover {
     }
 
     button{
-        font-size: 2.5vmax;
+        font-size: 2.5vmax !important;
     }
 }
 

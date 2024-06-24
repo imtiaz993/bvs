@@ -449,8 +449,8 @@
     .stat {
         border: 5px solid #ad172c;
         border-radius: 500px;
-        margin: 2rem;
-        padding: 0;
+        margin: 2rem !important;
+        padding: 0 !important;
     }
 
     .stat h1 {
@@ -500,8 +500,8 @@
     .stat {
         border: 5px solid #ad172c;
         border-radius: 500px;
-        margin: 2rem;
-        padding: 0;
+        margin: 2rem !important;
+        padding: 0 !important;
     }
 
     .stat h1 {
@@ -570,7 +570,7 @@
     }
 
     input, textarea{
-        font-size: 2.5vmax;
+        font-size: 2.5vmax !important;
     }
 
     .outside-about {
