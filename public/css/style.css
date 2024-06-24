@@ -464,7 +464,7 @@ button:hover {
 }
 
 .responsive-three-column-grid h2 {
-    text-align: center;
+    text-align: center !important;
 }
 
 /* columns */
@@ -567,7 +567,7 @@ button:hover {
     width: 100% !important;
 }
 
-.blog-detail h1,h2,p{
+.blog-detail h1, .blog-detail h2, .blog-detail p{
     text-align: left !important;
 }
 

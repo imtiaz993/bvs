@@ -402,7 +402,7 @@
 }
 
 .responsive-three-column-grid h2 {
-    text-align: center;
+    text-align: center !important;
 }
 
 /* columns */

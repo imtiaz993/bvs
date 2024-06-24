@@ -7,7 +7,7 @@ const WhoWeAre = () => {
   return (
     <div className="responsive-two-column-grid" style={{ marginTop: "5%" }}>
       <div className="left-container1">
-        <h2 style={{ textAlign: "center !important" }}>- Who We Are -</h2>
+        <h2 className="text-center">- Who We Are -</h2>
         <h1 className="hover-text about-hover" style={{ textAlign: "center" }}>
           Building Violation Solutions
         </h1>

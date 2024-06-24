@@ -63,8 +63,8 @@
     padding: 20px 10px 10px 10px;
 }
 
-.steps-pane h1, p, h2 {
-    text-align: center;
+.steps-pane h1, .steps-pane p, .steps-pane h2 {
+    text-align: center !important;
 }
 
 .steps-pane p{
@@ -81,7 +81,7 @@
 @media (max-width: 1300px) {
 
     .steps-pane p{
-        font-size: .85vmax;
+        font-size: .85vmax ;
     }
 
 }
