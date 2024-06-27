@@ -1,7 +1,7 @@
 "use client";
 
-import React from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useEffect, useState } from "react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 
 // Custom Icon
@@ -12,7 +12,29 @@ const BVSicon = new L.Icon({
   popupAnchor: [0, 0],
 });
 
+const PopupOpener = ({ open }) => {
+  const map = useMap();
+
+  useEffect(() => {
+    if (open) {
+      map.eachLayer((layer) => {
+        if (layer instanceof L.Marker && layer.getLatLng().lat === 40.75225) {
+          layer.openPopup();
+        }
+      });
+    }
+  }, [open, map]);
+
+  return null;
+};
+
 const MapComponent = () => {
+  const [openPopup, setOpenPopup] = useState(false);
+
+  useEffect(() => {
+    setOpenPopup(true);
+  }, []);
+
   return (
     <MapContainer
       center={[40.75225, -73.9883]}
@@ -39,6 +61,7 @@ const MapComponent = () => {
       <Marker position={[40.75225, -73.9883]} icon={BVSicon}>
         <Popup>130 West 37 Street, New York, NY</Popup>
       </Marker>
+      <PopupOpener open={openPopup} />
     </MapContainer>
   );
 };
